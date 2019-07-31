@@ -1,8 +1,5 @@
 module.exports = {
-  extends: [
-    "stylelint-config-standard",
-    "stylelint-config-recess-order"
-  ],
+  extends: ["stylelint-config-standard", "stylelint-config-recess-order"],
   root: true,
   env: {
     browser: true,
@@ -19,7 +16,7 @@ module.exports = {
     // （允许）使用未知的 at 规则
     "at-rule-no-unknown": [
       true,
-      { ignoreAtRules: ["mixin", "extend", "content"] }
+      { ignoreAtRules: ["mixin", "extend", "content", "if", "else", "else if"] }
     ],
 
     // （允许）使用未知单位，例如：rpx
@@ -38,7 +35,7 @@ module.exports = {
     "color-no-hex": null,
 
     // 指定十六进制颜色大小写 (upper:大写，lower:小写)
-    "color-hex-case": "upper",
+    "color-hex-case": null,
 
     // 指定十六进制颜色是否使用缩写 (short:短, long:长)
     "color-hex-length": "long",
