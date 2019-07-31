@@ -1,7 +1,7 @@
 
-# eslint-config-sf-js
+# stylelint-config-css
 
-This package includes the shareable ESLint configuration used by SF-iTech.
+This package includes the shareable Stylelint configuration used by SF-iTech.
 
 <br>
 Please refer to its documentation:
@@ -17,7 +17,7 @@ If you want to use this Stylelint configuration in your project, you can install
 First, install this package, Styleint and the necessary plugins.
 
 ```sh
-yarn add eslint-config-sf-css
+yarn add stylelint-config-sf-css
 ```
 
 Then create a file named `.stylelintrc.json` with following contents in the root folder of your project:
