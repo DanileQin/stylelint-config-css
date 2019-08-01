@@ -8,11 +8,6 @@ module.exports = {
     es6: true
   },
   rules: {
-    // 打包时禁用
-    "no-debugger": process.env.NODE_ENV === "production" ? 2 : 0,
-    "no-console": process.env.NODE_ENV === "production" ? 2 : 0,
-    "no-alert": process.env.NODE_ENV === "production" ? 2 : 0,
-
     // （允许）使用未知的 at 规则
     "at-rule-no-unknown": [
       true,
